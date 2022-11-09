@@ -27,3 +27,18 @@ Change permissios (example)
 ```
 gsutil acl -r ch -u AllUsers:R <gs://bucket/folder/file>
 ```
+
+List instances
+```
+gcloud compute instances list
+```
+
+Stop instance
+```
+gcloud compute instances stop <instanceName>
+```
+
+Create image
+```
+gcloud compute images create <imageName> --source-disk <instanceName>
+```
