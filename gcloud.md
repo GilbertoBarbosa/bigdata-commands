@@ -33,6 +33,11 @@ List instances
 gcloud compute instances list
 ```
 
+List images
+```
+gcloud compute images list
+```
+
 Stop instance
 ```
 gcloud compute instances stop <instanceName>
