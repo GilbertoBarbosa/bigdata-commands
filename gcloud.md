@@ -13,6 +13,11 @@ Copy files from local to gcloud
 gsutil -m cp -r <local> <gs://bucket>
 ```
 
+Update files from local to gcloud 
+```
+gsutil -m rsync -r <local> <gs://bucket>
+```
+
 Remove file
 ```
 gsutil rm <gs://bucket/folder/file>
