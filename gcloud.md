@@ -38,8 +38,9 @@ List images
 gcloud compute images list
 ```
 
-Stop instance
+Start/Stop instance
 ```
+gcloud compute instances start <instanceName>
 gcloud compute instances stop <instanceName>
 ```
 
