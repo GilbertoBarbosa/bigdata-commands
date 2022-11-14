@@ -58,3 +58,8 @@ gcloud deploy
 ```
 gcloud functions deploy <functionName> --runtime --trigger
 ```
+
+Functions logs
+```
+gcloud functions logs read <functionName>
+```
