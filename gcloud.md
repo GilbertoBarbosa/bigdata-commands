@@ -48,3 +48,13 @@ Create image
 ```
 gcloud compute images create <imageName> --source-disk <instanceName>
 ```
+
+gcloud Update
+```
+gcloud components update
+```
+
+gcloud deploy
+```
+gcloud functions deploy <functionName> --runtime --trigger
+```
