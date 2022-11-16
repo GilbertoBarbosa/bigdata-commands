@@ -78,3 +78,8 @@ Publish message
 ```
 gcloud pubsub topics publish <functionName> --message <message>
 ```
+
+Create topic
+```
+gcloud pubsub topics create <topicName>
+```
