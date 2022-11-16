@@ -63,3 +63,18 @@ Functions logs
 ```
 gcloud functions logs read <functionName>
 ```
+
+List functions
+```
+gcloud functions list
+```
+
+Detail function
+```
+gcloud functions describe <functionName>
+```
+
+Publish message
+```
+gcloud pubsub topics publish <functionName> --message <message>
+```
