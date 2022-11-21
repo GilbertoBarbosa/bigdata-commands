@@ -12,3 +12,8 @@ Deploy
 ```
 serverless deploy
 ```
+
+Pubsub
+```
+npm install @google-cloud/pubsub
+```
