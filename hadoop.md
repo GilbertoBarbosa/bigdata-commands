@@ -10,8 +10,20 @@ hdfs dfs -ls <path>
 
 ```
 
-Put
+Create directory
+```
+hdfs dfs -mkdir <directoryName>
+
+```
+
+Copy files
 ```
 hdfs dfs -put <origin> <destination>
+
+```
+
+Power off hadoop service
+```
+stop-dfs.sh
 
 ```
