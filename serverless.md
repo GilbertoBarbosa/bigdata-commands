@@ -17,3 +17,8 @@ Pubsub
 ```
 npm install @google-cloud/pubsub
 ```
+
+BigQuery
+```
+npm install @google-cloud/bigquery
+```
