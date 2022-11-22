@@ -1,3 +1,17 @@
+Start/stop hadoop service
+```
+start-dfs.sh
+stop-dfs.sh
+
+```
+
+Start/stop yarn service
+```
+start-yarn.sh
+stop-yarn.sh
+
+```
+
 Check status Hadoop services
 ```
 jps
@@ -22,8 +36,3 @@ hdfs dfs -put <origin> <destination>
 
 ```
 
-Power off hadoop service
-```
-stop-dfs.sh
-
-```
