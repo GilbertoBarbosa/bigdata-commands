@@ -35,3 +35,8 @@ Copy files
 hdfs dfs -put <origin> <destination>
 ```
 
+Format namenode
+```
+hdfs dfs namenode -format
+```
+
