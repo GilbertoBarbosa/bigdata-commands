@@ -1,3 +1,8 @@
+Authentication
+```
+gcloud auth application-default login
+```
+
 Init
 ```
 gcloud init
