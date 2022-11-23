@@ -26,4 +26,10 @@ npm install @google-cloud/bigquery
 Koa
 ```
 npm install koa
+npm install koa-bodyparser
+```
+
+Basic-auth
+```
+npm install basic-auth
 ```
