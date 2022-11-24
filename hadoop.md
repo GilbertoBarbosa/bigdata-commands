@@ -15,6 +15,12 @@ start-yarn.sh
 stop-yarn.sh
 ```
 
+Start/stop zookeeper service
+```
+zkServer.sh start
+zkServer.sh stop
+```
+
 Check status Hadoop services
 ```
 jps
