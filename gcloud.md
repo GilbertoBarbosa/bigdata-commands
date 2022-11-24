@@ -88,3 +88,13 @@ Create topic
 ```
 gcloud pubsub topics create <topicName>
 ```
+
+Generate temporary credentials docker
+```
+gcloud auth configure-docker
+```
+
+List containers
+```
+gcloud container clusters list
+```
