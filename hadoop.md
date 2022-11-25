@@ -21,6 +21,13 @@ zkServer.sh start
 zkServer.sh stop
 ```
 
+Start/stop/shell hbase service
+```
+start-hbase.sh
+stop-hbase.sh
+hbase shell
+```
+
 Check status Hadoop services
 ```
 jps
