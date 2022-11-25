@@ -6,6 +6,7 @@ gcloud auth application-default login
 Init
 ```
 gcloud init
+gcloud components update
 ```
 
 List storage items
