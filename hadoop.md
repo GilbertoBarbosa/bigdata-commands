@@ -28,6 +28,11 @@ stop-hbase.sh
 hbase shell
 ```
 
+Create schema at hive
+```
+schematool -dbType derby -initSchema
+```
+
 Check status Hadoop services
 ```
 jps
