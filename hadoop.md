@@ -33,6 +33,12 @@ Create schema at hive
 schematool -dbType derby -initSchema
 ```
 
+Start Hive/Pig
+```
+hive
+pig
+```
+
 Check status Hadoop services
 ```
 jps
