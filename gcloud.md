@@ -104,3 +104,8 @@ List regions
 ```
 gcloud app regions list
 ```
+
+Create app
+```
+gcloud app create --project=<project> --region=<region>
+```
