@@ -99,3 +99,8 @@ List containers
 ```
 gcloud container clusters list
 ```
+
+List regions
+```
+gcloud app regions list
+```
