@@ -109,3 +109,8 @@ Create app
 ```
 gcloud app create --project=<project> --region=<region>
 ```
+
+Install kubernets components
+```
+gcloud components install kubectl
+```
