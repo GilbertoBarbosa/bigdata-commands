@@ -63,6 +63,7 @@ gcloud components update
 gcloud deploy
 ```
 gcloud functions deploy <functionName> --runtime --trigger
+gcloud <functionName> services deploy  <file>.yaml
 ```
 
 Functions logs
