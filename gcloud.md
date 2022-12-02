@@ -125,3 +125,8 @@ Install kubernets components
 ```
 gcloud components install kubectl
 ```
+
+List kubernets services
+```
+kubectl get service
+```
