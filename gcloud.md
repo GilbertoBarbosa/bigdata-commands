@@ -126,6 +126,11 @@ Install kubernets components
 gcloud components install kubectl
 ```
 
+Apply kubernets
+```
+kubectl apply -f deployment.yaml
+```
+
 List kubernets services
 ```
 kubectl get service
