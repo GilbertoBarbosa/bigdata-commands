@@ -75,6 +75,11 @@ List functions
 gcloud functions list
 ```
 
+List projects
+```
+gcloud projects list
+```
+
 Detail function
 ```
 gcloud functions describe <functionName>
