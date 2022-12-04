@@ -54,9 +54,14 @@ Create directory
 hdfs dfs -mkdir <directoryName>
 ```
 
-Copy files
+Copy files local -> hdfs
 ```
 hdfs dfs -put <origin> <destination>
+```
+
+Copy files hdfs -> local
+```
+hdfs dfs -get <origin> <destination>
 ```
 
 Format namenode
