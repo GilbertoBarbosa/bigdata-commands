@@ -69,3 +69,8 @@ Format namenode
 hdfs dfs namenode -format
 ```
 
+Report dfsadmin
+```
+hdfs dfsadmin -report
+```
+
