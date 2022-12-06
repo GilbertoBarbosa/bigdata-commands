@@ -29,9 +29,19 @@ Remove file
 gsutil rm <gs://bucket/folder/file>
 ```
 
-Change permissios (example)
+Get permissions
+```
+gsutil acl get <bucket>
+```
+
+Change permissions (example)
 ```
 gsutil acl -r ch -u AllUsers:R <gs://bucket/folder/file>
+```
+
+Change bucket for web
+```
+gsutil web set -m index.html -e 404.html <bucket>
 ```
 
 Create bucket
