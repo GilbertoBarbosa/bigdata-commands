@@ -34,6 +34,11 @@ Change permissios (example)
 gsutil acl -r ch -u AllUsers:R <gs://bucket/folder/file>
 ```
 
+Create bucket
+```
+gsutil mb gs://<bucketName>
+```
+
 Get credentials
 ```
 gcloud container clusters get-credentials <clusterName> --zone --project
