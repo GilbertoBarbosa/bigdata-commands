@@ -34,6 +34,11 @@ Get permissions
 gsutil acl get <bucket>
 ```
 
+Change lifecycle bucket
+```
+gsutil lifecycle set <file.json> <bucket>
+```
+
 Change permissions (example)
 ```
 gsutil acl -r ch -u AllUsers:R <gs://bucket/folder/file>
