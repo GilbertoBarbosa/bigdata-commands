@@ -14,6 +14,11 @@ List storage items
 gsutil ls
 ```
 
+Disk usage bucket
+```
+gsutil du -sh <bucket>
+```
+
 Copy files from local to gcloud
 ```
 gsutil -m cp -r <local> <gs://bucket>
