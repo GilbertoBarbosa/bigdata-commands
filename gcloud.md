@@ -44,6 +44,16 @@ Change permissions (example)
 gsutil acl -r ch -u AllUsers:R <gs://bucket/folder/file>
 ```
 
+Check status bucket versioning 
+```
+gsutil versioning get <bucket>
+```
+
+Activate bucket versioning 
+```
+gsutil versioning set on <bucket>
+```
+
 Change bucket for web
 ```
 gsutil web set -m index.html -e 404.html <bucket>
