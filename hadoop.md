@@ -74,3 +74,7 @@ Report dfsadmin
 hdfs dfsadmin -report
 ```
 
+Run MapReduce with python
+```
+python <file.py> hdfs:///mapred/<data> -r hadoop
+```
