@@ -64,6 +64,11 @@ Copy files hdfs -> local
 hdfs dfs -get <origin> <destination>
 ```
 
+Delete file hdfs
+```
+hdfs dfs -rm <file>
+```
+
 Format namenode
 ```
 hdfs dfs namenode -format
