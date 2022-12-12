@@ -57,6 +57,7 @@ hdfs dfs -mkdir <directoryName>
 Copy files local -> hdfs
 ```
 hdfs dfs -put <origin> <destination>
+hdfs dfs -copyFromLocal <origin> <destination>
 ```
 
 Copy files hdfs -> local
