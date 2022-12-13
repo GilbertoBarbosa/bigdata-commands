@@ -39,6 +39,11 @@ hive
 pig
 ```
 
+Start Pig with mapreduce
+```
+pig -x mapreduce
+```
+
 Check status Hadoop services
 ```
 jps
