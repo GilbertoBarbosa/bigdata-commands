@@ -28,6 +28,11 @@ stop-hbase.sh
 hbase shell
 ```
 
+Start history server
+```
+mr-jobhistory-daemon.sh start historyserver
+```
+
 Create schema at hive
 ```
 schematool -dbType derby -initSchema
