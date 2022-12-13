@@ -170,3 +170,8 @@ List kubernets services
 ```
 kubectl get service
 ```
+
+Create new datalab on cloud Shell
+```
+datalab create --machine-type <name>
+```
