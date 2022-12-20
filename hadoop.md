@@ -28,6 +28,12 @@ stop-hbase.sh
 hbase shell
 ```
 
+Start/stop Safe Mode HDFS
+```
+hdfs dsfadmin -safemode
+hdfs dfsadmin -safemode leave
+```
+
 Start history server
 ```
 mr-jobhistory-daemon.sh start historyserver
