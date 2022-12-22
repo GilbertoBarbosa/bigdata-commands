@@ -34,6 +34,11 @@ hdfs dsfadmin -safemode
 hdfs dfsadmin -safemode leave
 ```
 
+Apache Mahout
+```
+mahout
+```
+
 Start history server
 ```
 mr-jobhistory-daemon.sh start historyserver
