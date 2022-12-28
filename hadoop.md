@@ -105,3 +105,8 @@ Run MapReduce with python
 ```
 python <file.py> hdfs:///mapred/<data> -r hadoop
 ```
+
+Spark shell
+```
+spark-shell
+```
